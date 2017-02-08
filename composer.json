@@ -1,6 +1,7 @@
 {
     "name": "huungnguyen/timezones",
     "description": "Demo-package to show time",
+    "license": "MIT",
     "authors": [
         {
             "name": "huungnguyen",
