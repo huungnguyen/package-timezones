@@ -2,15 +2,21 @@
     "name": "huungnguyen/timezones",
     "description": "Demo-package to show time",
     "license": "MIT",
+    "homepage": "https://github.com/huungnguyen/package-timezones",
     "authors": [
         {
             "name": "huungnguyen",
             "email": "huungnguyen.vp.1995@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
-    	 "php": ">=5.6.4"
+        "php": ">=5.3.0"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "autoload": {
+        "psr-4": {
+            "Laraveldaily\\Timezones\\": "src/"
+        }
+    }
+
 }
