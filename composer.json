@@ -7,5 +7,9 @@
             "name": "huungnguyen",
             "email": "huungnguyen.vp.1995@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	 "php": ">=5.6.4"
+    }
 }
